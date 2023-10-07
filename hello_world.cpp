@@ -1,11 +1,13 @@
 #include <iostream>
 #include <string>
-using namespace std;
 
 int main()
 {
-    string name;
-    cin >> name;
-    cout << "hello World from " << name << endl;
+    // создадим строковую переменную
+    std::string name;
+    // введём имя с экрана
+    std::cin >> name;
+    // выведем приветствие
+    std::cout << "hello World from " << name << std::endl;
     return 0;
 }
